@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Logs and runtime data
+*.log
+logs/
+tmp/
+*.pid
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Game/server data that must not be committed
+*.grf
+*.rgz
+*.gat
+*.gnd
+*.rsw
+*.spr
+*.act
+*.lub
+*.rsm
+*.rsm2
+*.thor
+*.sql.gz
+backups/
