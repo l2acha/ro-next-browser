@@ -1,0 +1,34 @@
+name: Feature request
+description: Propose a focused improvement for RO Next Browser
+title: "[Feature]: "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user or developer need should this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the smallest useful solution.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and tradeoffs
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact areas
+      options:
+        - label: Browser client
+        - label: Launcher
+        - label: Gateway/API
+        - label: rAthena integration
+        - label: Infrastructure
+        - label: Documentation
